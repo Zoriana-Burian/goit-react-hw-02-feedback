@@ -11,3 +11,5 @@ class Feedback extends React.Component {
         );
     }
 };
+
+export default Feedback;
