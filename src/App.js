@@ -67,7 +67,7 @@ class App extends React.Component {
                     
                 </Section>
 
-                {this.countTotalFeedback === 0 ? (<Notification message="No feedback given" />) 
+                {this.countTotalFeedback() === 0 ? (<Notification message="No feedback given" />) 
                 : (
                  
                 <Section title="Statistics">
