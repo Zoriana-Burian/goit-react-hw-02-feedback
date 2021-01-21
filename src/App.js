@@ -24,7 +24,7 @@ import Feedback from './components/Feedback/Feedback';
 //}
 const App = () => (
   <>
-    <h1>Please leave feedback</h1>
+
     <Feedback/>
 
    </> 
