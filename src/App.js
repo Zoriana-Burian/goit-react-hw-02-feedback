@@ -54,7 +54,7 @@ class App extends React.Component {
     
     
     render() {
-       // const {good, neutral, bad} = this.state;
+        const {good, neutral, bad} = this.state;
         const options = Object.keys(this.state);
         return (
             <div>
@@ -72,9 +72,9 @@ class App extends React.Component {
                  
                 <Section title="Statistics">
                   <Statistics
-                    good={this.state.good}
-                    neutral={this.state.neutral}
-                    bad={this.state.bad}
+                    good={good}
+                    neutral={neutral}
+                    bad={bad}
                     total={this.countTotalFeedback()}
                     positivePercentage={this.countPositiveFeedbackPercentage() } />
                 </Section>   
